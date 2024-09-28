@@ -14,7 +14,12 @@
 		- toggle between read-only and an editable form 
 - `localhost:3000/search/:searchKey/:searchValue`
  - how a list oif journal entries where each entry matches the searchParam
- - 
+- `localhost:3000/latest/`
+    - List the entries
+        - latest INFINITY entries
+
+localhost:3000/search/:searchKey/:searchValue
+localhost:3000/search/type/review
 
 
  ```js
